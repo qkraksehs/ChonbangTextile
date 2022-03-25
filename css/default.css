@@ -1,0 +1,31 @@
+:root {
+    --main-color:#F9941E;
+    --sub-color1:#74B743;
+    --sub-color2:#3581CA;
+    --sub-color3:#A8A8A8;
+    --text-color1:#333;
+    --text-color2:#999;
+    --text-color3:#ccc;
+    --text-color4:#fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color1);
+
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: var(--text-color1);
+}
