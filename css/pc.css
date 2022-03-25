@@ -23,20 +23,24 @@ body {
     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
 }
 
-#gnb {
+#mobile-gnb {
+    display: none;
+}
+
+#pc-gnb {
     text-align: center;
 }
 
-#gnb ul{
+#pc-gnb ul{
     display: flex;
 }
 
-#gnb > ul > li {
+#pc-gnb > ul > li {
     width: 147px;
     position: relative;
 }
 
-#gnb ul li:first-child {
+#pc-gnb ul li:first-child {
     margin-left: 0;
 }
 
@@ -55,12 +59,12 @@ body {
     display: none;
 }
 
-#gnb .depth2 {
+#pc-gnb .depth2 {
     display: none;
     z-index: 999;
 }
 
-#gnb .depth2.on {
+#pc-gnb .depth2.on {
     width: 147px;
     height: 299px;    
     top: 49px;
@@ -71,12 +75,12 @@ body {
     border-top: 5px solid #fff;
 }
 
-#gnb .depth2 li {
+#pc-gnb .depth2 li {
     margin-top: 30px;
 }
 
 
-#gnb > ul > li:hover .depth2{
+#pc-gnb > ul > li:hover .depth2{
     background: #eee;
     border-top: 5px solid var(--main-color);
 }
