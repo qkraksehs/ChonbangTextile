@@ -290,8 +290,10 @@ video {
 /* 쇼핑몰info */
 #shopping-info {
     width: 100%;
+    height: 550px;
     margin-top: 30px;
     margin-bottom: 115px;
+    overflow: hidden;
 }
 
 #shopping-info .contents {
@@ -973,6 +975,13 @@ video {
 
 #map {
     width: 100%;
+}
+
+.map-line {
+    width: 90%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.25);
+    margin: 60px auto;
 }
 
 .address {

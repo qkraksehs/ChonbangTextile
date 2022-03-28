@@ -25,6 +25,10 @@ a {
 
 }
 
+table {
+    border-collapse: collapse;
+}
+
 body {
     font-family: 'Noto Sans KR', sans-serif;
     color: var(--text-color1);

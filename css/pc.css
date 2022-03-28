@@ -1,4 +1,12 @@
 /* PC.css */
+html, body {
+    cursor: url('../images/cursor.cur'),auto;
+}
+
+a, a:link { cursor: url('../images/cursor2.cur'), auto;} 
+a:hover, a:focus { cursor: url('../images/cursor2.cur'), auto;} 
+a:active {cursor: url('../images/cursor2.cur'), auto;} 
+
 body {
     font-size: 18px;
     margin: 0 auto;
@@ -965,6 +973,7 @@ footer .footer-info .copy {
 
 #news-page table {
     border-top: 4px solid var(--main-color);
+    width: 1253px;
 }
 
 #news-page thead th:nth-child(3) {
@@ -983,6 +992,7 @@ footer .footer-info .copy {
 
 #news-page tbody td:nth-child(2) {
     text-align: left;
+    padding-left: 70px;
 }
 
 #news-page #text-title {
@@ -1137,6 +1147,13 @@ footer .footer-info .copy {
 
 #map {
     margin: 0 auto;
+}
+
+.map-line {
+    width: 1440px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.25);
+    margin: 60px auto;
 }
 
 #map #text-title {
