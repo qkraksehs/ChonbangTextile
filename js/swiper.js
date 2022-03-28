@@ -5,7 +5,7 @@ const swiper = new Swiper('.swiper', {
     effect: 'slide',
     loop: true, // 순환 여부
     autoplay: {
-      delay: 3500
+      delay: 2500
     },
     speed: 1500, // 전환효과 시간
     // 하단 버튼 UI 

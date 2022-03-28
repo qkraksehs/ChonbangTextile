@@ -29,3 +29,13 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     color: var(--text-color1);
 }
+
+html {
+    /* 부드럽게 */
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: var(--main-color);
+    color: #fff;
+}

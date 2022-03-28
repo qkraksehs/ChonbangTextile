@@ -41,9 +41,9 @@ function footer() {
             </div>
             <select name="family-link" id="family-link" class="pc-only">
                 <option value="">패밀리사이트</option>
-                <option value="">pro-specs</option>
-                <option value="">lancetti</option>
-                <option value="">oem</option>
+                <option value="">PRO-SPECS</option>
+                <option value="">LANCETTI</option>
+                <option value="">OEM</option>
             </select>
         </div><!-- container -->        
     </footer>

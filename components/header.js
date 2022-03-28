@@ -1,6 +1,7 @@
 // 자바스크립트로 생성된 html components
 function header () {
     return `
+    <div class="box2"></div>
     <header id="main-header" class="container">
         <h1>
             <a href="index.html"><img src="./images/header_logo.svg" alt="로고"></a>
@@ -42,6 +43,7 @@ function header () {
                 </li>
             </ul>
         </nav>
+        
         <nav id="mobile-gnb">
             <button class="toggle-close-btn mobile-only">
                 <img src="./images/toggle-close-btn.svg" alt="토글메뉴버튼">
@@ -56,12 +58,15 @@ function header () {
                 </li>
                 <li><a href="./map.html">오시는길</a>
                 </li>
+                <li><a href="https://www.lsnmall.com" target="_blank">쇼핑몰 바로가기</a>
+                </li>
             </ul>
         </nav>
         <div class="right-menu pc-only">
             <img src="./images/icon_language.svg" alt="언어">
             <p><a href="#">KOR</a></p><span>|</span>
             <p><a href="#">ENG</a></p>
+            <div class="nav-mall"><a href="https://www.lsnmall.com" target="_blank">쇼핑몰 바로가기</a></div>
             <button class="sitemap-btn pc-only">
                 <img src="./images/site-map-btn.svg" alt="사이트맵">
             </button>
@@ -98,6 +103,9 @@ function header () {
                 <ul>
                     <li><a href="map.html">본사 및 물류센터</a></li>              
                 </ul>
+            </li>
+            <div class="line-var"></div>
+            <li><a href="https://www.lsnmall.com" target="_blank">쇼핑몰 바로가기</a>
             </li>
         </ul>
         <button id="sitemap-modal-close">
