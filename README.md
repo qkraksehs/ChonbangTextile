@@ -21,6 +21,7 @@
     - mobile toggle menu - jQuery
     - Slider - Javascript plug-in
     - tab button - jQuery
+    - 애니메이션 효과 -aos plug-in
     - mobile 전화하기 기능 추가
     - 링크연결 바로가기 기능 추가
     - UI디자인 - css
@@ -28,6 +29,18 @@
     - 지도 google map 추가
 
 4. 배포 (깃허브)
-    - 지속적으로 수정, 보완 업데이트
+    - 지속적으로 수정, 보완 업데이트(03-28)
+    - header에 쇼핑몰바로가기 추가
+    - 슬라이더 이동속도 조정
+    - 사이트맵 close버튼 위치조정
+    - 오시는길 영역 배치 수정
+    - 로고 여백 수정
+    - AOS효과 추가
+    - 스크롤바, 마우스커서 자사사이트 분위기로 디자인 변경
+    - contents news영역 call영역 수정
+    - table 라인 선 합침
+    - mobile toggle-menu 클릭시 메뉴 제외하고 다른 화면 투명한 검정색으로 되게 변경.
+    - site-map, mobile toggle-menu에 쇼핑몰 바로가기 추가
+    - 푸터영역에 패밀리링크 여백 조정
 
 5. 프로젝트 자료정리
