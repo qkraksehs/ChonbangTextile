@@ -60,7 +60,9 @@
 
     <!-- 슬라이더 컨테이터 -->
     <div id="main-visual" class="swiper">
-        <h2>제품소개</h2>
+        <div class="swiper-title">
+            <h2>제품소개</h2>
+        </div>
         <div class="swiper-wrapper">
             <!-- 슬라이더 콘텐츠 -->
             <div class="swiper-slide s1">
@@ -89,6 +91,7 @@
     </div><!-- swiper-->
 
     <!-- 메인콘텐츠 -->
+    <div class="color-box">
         <section id="main-contents">
             <div class="col">
                 <div class="tab-group">
@@ -142,7 +145,7 @@
             </div>
             <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="col">
                 <a href="tel:080-600-8484">
-                    <img data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="1000" data-aos-offset="0"
+                    <img data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="800" data-aos-offset="0"
                         src="./images/icon_phone-call-fill.svg" alt="call">
                 </a>
                 <div class="text-box">
@@ -153,15 +156,14 @@
                 </div>
             </div>
         </section>
+    </div>
 
     <!-- 쇼핑몰info -->
     <section id="shopping-info">
         <div class="contents">
             <img data-aos="fade-down-right" data-aos-duration="1500" src="./images/shopping-info-banner.jpg"
                 alt="banner">
-            <div data-aos="fade-up-left" data-aos-duration="1500"
-                 data-aos-delay="500"
-            class="shopping">
+            <div data-aos="fade-up-left" data-aos-duration="2500" class="shopping">
                 <img src="./images/pro-specs_icon.png" alt="pro-specs">
                 <a target="_blank"
                     href="https://www.lsnmall.com/display.do?cmd=categoryMain&CAT_GB=10005&TCAT_CD=1501">쇼핑몰 바로가기</a>
@@ -174,10 +176,12 @@
         <script src="./components/footer.js"></script>
     </div>
 
+    <script src="./js/swiper.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
-<script src="./js/swiper.js"></script>
-<script>
-    AOS.init();
-</script>
+
+
 
 </html>

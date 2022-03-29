@@ -15,6 +15,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ul {
     list-style-type: none;
 }
@@ -22,21 +26,11 @@ ul {
 a {
     text-decoration: none;
     color: var(--text-color1);
-
-}
-
-table {
-    border-collapse: collapse;
 }
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
     color: var(--text-color1);
-}
-
-html {
-    /* 부드럽게 */
-    scroll-behavior: smooth;
 }
 
 ::selection {

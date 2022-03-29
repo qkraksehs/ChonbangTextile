@@ -1,6 +1,4 @@
 //main.js
-
-
 //pc-menu
 $(function(){
     $('#pc-gnb > ul').mouseover(function(){
@@ -41,17 +39,20 @@ $(function(){
        $('#faq').removeClass('on')
        $('#news').addClass('on');
    })
+
    $('.tab-group > a:last').click(function(){
        $('.tab-group > a').removeClass('on')
        $(this).addClass('on')
        $('#news').removeClass('on')
        $('#faq').addClass('on');
    })
+
    // sitemap-menu
    $('.sitemap-btn').click(function(){
        $('.sitemap-modal').addClass('on')
        $('#sitemap-modal-close').addClass('on');
    })
+
    // sitemap-close
    $('#sitemap-modal-close').click(function(){
        $('.sitemap-modal').removeClass('on')
@@ -66,3 +67,4 @@ $(window).resize(function(){
         $('#mobile-gnb').hide();
     }
 })
+

@@ -39,12 +39,14 @@ function footer() {
                 </p>
                 <p class="copy">copyright ⓒ 2022 chonbangtextile.all right reserved.</p>
             </div>
+            <div class="wrap">
             <select name="family-link" id="family-link" class="pc-only">
                 <option value="">패밀리사이트</option>
                 <option value="">PRO-SPECS</option>
                 <option value="">LANCETTI</option>
                 <option value="">OEM</option>
             </select>
+            </div>
         </div><!-- container -->        
     </footer>
     <div class="top-btn mobile-only">
